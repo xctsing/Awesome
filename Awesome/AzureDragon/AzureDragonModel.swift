@@ -8,5 +8,5 @@
 import UIKit
 
 class AzureDragonModel: NSObject {
-    let model = ["地图", "聊天", "图片"]
+    let model = ["Map", "NavBar", "TabBar", "Table", "Collection"]
 }
