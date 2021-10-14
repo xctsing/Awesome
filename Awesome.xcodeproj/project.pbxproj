@@ -8,9 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4EF59C4F9579915A2FCDDFC1 /* Pods_Awesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A42111BB7197EBA54FB3EF /* Pods_Awesome.framework */; };
+		E198042C271592C700CEE2C6 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198042B271592C700CEE2C6 /* MainNavigationController.swift */; };
+		E198042E271592DB00CEE2C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198042D271592DB00CEE2C6 /* MainViewController.swift */; };
+		E19804302715930200CEE2C6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198042F2715930200CEE2C6 /* MainTabBarController.swift */; };
+		E19804322715945400CEE2C6 /* EntranceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19804312715945400CEE2C6 /* EntranceModel.swift */; };
+		E19804342715986300CEE2C6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19804332715986300CEE2C6 /* MapViewController.swift */; };
+		E19804372716826700CEE2C6 /* WhiteTigerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19804362716826700CEE2C6 /* WhiteTigerController.swift */; };
+		E1980439271682B000CEE2C6 /* BlackTortoiseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1980438271682B000CEE2C6 /* BlackTortoiseController.swift */; };
+		E198043B271682D300CEE2C6 /* VermilionBirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198043A271682D300CEE2C6 /* VermilionBirdController.swift */; };
+		E198043D2716849200CEE2C6 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198043C2716849200CEE2C6 /* SlideMenuViewController.swift */; };
+		E198043F2716E08000CEE2C6 /* AzureDragonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E198043E2716E08000CEE2C6 /* AzureDragonModel.swift */; };
+		E19804482718160100CEE2C6 /* NavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19804472718160100CEE2C6 /* NavBarViewController.swift */; };
 		E1EE538C271455F7007FE0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE538B271455F7007FE0F7 /* AppDelegate.swift */; };
 		E1EE538E271455F7007FE0F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE538D271455F7007FE0F7 /* SceneDelegate.swift */; };
-		E1EE5390271455F7007FE0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE538F271455F7007FE0F7 /* ViewController.swift */; };
+		E1EE5390271455F7007FE0F7 /* AzureDragonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE538F271455F7007FE0F7 /* AzureDragonController.swift */; };
 		E1EE5393271455F7007FE0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EE5391271455F7007FE0F7 /* Main.storyboard */; };
 		E1EE5395271455F8007FE0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EE5394271455F8007FE0F7 /* Assets.xcassets */; };
 		E1EE5398271455F8007FE0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EE5396271455F8007FE0F7 /* LaunchScreen.storyboard */; };
@@ -20,10 +31,21 @@
 		39A42111BB7197EBA54FB3EF /* Pods_Awesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Awesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5215800B8355F339F6B99132 /* Pods-Awesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome.debug.xcconfig"; path = "Target Support Files/Pods-Awesome/Pods-Awesome.debug.xcconfig"; sourceTree = "<group>"; };
 		7C81ED54B0AFB7B59664D881 /* Pods-Awesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome.release.xcconfig"; path = "Target Support Files/Pods-Awesome/Pods-Awesome.release.xcconfig"; sourceTree = "<group>"; };
+		E198042B271592C700CEE2C6 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		E198042D271592DB00CEE2C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E198042F2715930200CEE2C6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E19804312715945400CEE2C6 /* EntranceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceModel.swift; sourceTree = "<group>"; };
+		E19804332715986300CEE2C6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E19804362716826700CEE2C6 /* WhiteTigerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTigerController.swift; sourceTree = "<group>"; };
+		E1980438271682B000CEE2C6 /* BlackTortoiseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackTortoiseController.swift; sourceTree = "<group>"; };
+		E198043A271682D300CEE2C6 /* VermilionBirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VermilionBirdController.swift; sourceTree = "<group>"; };
+		E198043C2716849200CEE2C6 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		E198043E2716E08000CEE2C6 /* AzureDragonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureDragonModel.swift; sourceTree = "<group>"; };
+		E19804472718160100CEE2C6 /* NavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarViewController.swift; sourceTree = "<group>"; };
 		E1EE5388271455F7007FE0F7 /* Awesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Awesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EE538B271455F7007FE0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1EE538D271455F7007FE0F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1EE538F271455F7007FE0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1EE538F271455F7007FE0F7 /* AzureDragonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureDragonController.swift; sourceTree = "<group>"; };
 		E1EE5392271455F7007FE0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1EE5394271455F8007FE0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1EE5397271455F8007FE0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +72,87 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E198042127156A3D00CEE2C6 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E19804332715986300CEE2C6 /* MapViewController.swift */,
+				E198043C2716849200CEE2C6 /* SlideMenuViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E198042227156A7400CEE2C6 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		E19804242715903200CEE2C6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E1980425271590CD00CEE2C6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E198042D271592DB00CEE2C6 /* MainViewController.swift */,
+				E198042F2715930200CEE2C6 /* MainTabBarController.swift */,
+				E198042B271592C700CEE2C6 /* MainNavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1980426271591A000CEE2C6 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE538B271455F7007FE0F7 /* AppDelegate.swift */,
+				E1EE538D271455F7007FE0F7 /* SceneDelegate.swift */,
+				E19804312715945400CEE2C6 /* EntranceModel.swift */,
+				E1EE5391271455F7007FE0F7 /* Main.storyboard */,
+				E1EE5394271455F8007FE0F7 /* Assets.xcassets */,
+				E1EE5396271455F8007FE0F7 /* LaunchScreen.storyboard */,
+				E1EE5399271455F8007FE0F7 /* Info.plist */,
+			);
+			path = Entrance;
+			sourceTree = "<group>";
+		};
+		E19804352716818500CEE2C6 /* AzureDragon */ = {
+			isa = PBXGroup;
+			children = (
+				E198043E2716E08000CEE2C6 /* AzureDragonModel.swift */,
+				E1EE538F271455F7007FE0F7 /* AzureDragonController.swift */,
+				E19804472718160100CEE2C6 /* NavBarViewController.swift */,
+			);
+			path = AzureDragon;
+			sourceTree = "<group>";
+		};
+		E19804402717E51100CEE2C6 /* VermilionBird */ = {
+			isa = PBXGroup;
+			children = (
+				E198043A271682D300CEE2C6 /* VermilionBirdController.swift */,
+			);
+			path = VermilionBird;
+			sourceTree = "<group>";
+		};
+		E19804422717E53F00CEE2C6 /* BlackTortoise */ = {
+			isa = PBXGroup;
+			children = (
+				E1980438271682B000CEE2C6 /* BlackTortoiseController.swift */,
+			);
+			path = BlackTortoise;
+			sourceTree = "<group>";
+		};
+		E19804442717E5A000CEE2C6 /* WhiteTiger */ = {
+			isa = PBXGroup;
+			children = (
+				E19804362716826700CEE2C6 /* WhiteTigerController.swift */,
+			);
+			path = WhiteTiger;
+			sourceTree = "<group>";
+		};
 		E1EE537F271455F7007FE0F7 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +174,15 @@
 		E1EE538A271455F7007FE0F7 /* Awesome */ = {
 			isa = PBXGroup;
 			children = (
-				E1EE538B271455F7007FE0F7 /* AppDelegate.swift */,
-				E1EE538D271455F7007FE0F7 /* SceneDelegate.swift */,
-				E1EE538F271455F7007FE0F7 /* ViewController.swift */,
-				E1EE5391271455F7007FE0F7 /* Main.storyboard */,
-				E1EE5394271455F8007FE0F7 /* Assets.xcassets */,
-				E1EE5396271455F8007FE0F7 /* LaunchScreen.storyboard */,
-				E1EE5399271455F8007FE0F7 /* Info.plist */,
+				E1980426271591A000CEE2C6 /* Entrance */,
+				E1980425271590CD00CEE2C6 /* Main */,
+				E19804352716818500CEE2C6 /* AzureDragon */,
+				E19804402717E51100CEE2C6 /* VermilionBird */,
+				E19804442717E5A000CEE2C6 /* WhiteTiger */,
+				E19804422717E53F00CEE2C6 /* BlackTortoise */,
+				E19804242715903200CEE2C6 /* Common */,
+				E198042227156A7400CEE2C6 /* Media */,
+				E198042127156A3D00CEE2C6 /* Map */,
 			);
 			path = Awesome;
 			sourceTree = "<group>";
@@ -88,7 +193,6 @@
 				5215800B8355F339F6B99132 /* Pods-Awesome.debug.xcconfig */,
 				7C81ED54B0AFB7B59664D881 /* Pods-Awesome.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -225,9 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1EE5390271455F7007FE0F7 /* ViewController.swift in Sources */,
+				E1EE5390271455F7007FE0F7 /* AzureDragonController.swift in Sources */,
+				E198043D2716849200CEE2C6 /* SlideMenuViewController.swift in Sources */,
+				E19804482718160100CEE2C6 /* NavBarViewController.swift in Sources */,
 				E1EE538C271455F7007FE0F7 /* AppDelegate.swift in Sources */,
+				E19804302715930200CEE2C6 /* MainTabBarController.swift in Sources */,
+				E19804322715945400CEE2C6 /* EntranceModel.swift in Sources */,
+				E198043F2716E08000CEE2C6 /* AzureDragonModel.swift in Sources */,
+				E198043B271682D300CEE2C6 /* VermilionBirdController.swift in Sources */,
+				E198042C271592C700CEE2C6 /* MainNavigationController.swift in Sources */,
 				E1EE538E271455F7007FE0F7 /* SceneDelegate.swift in Sources */,
+				E1980439271682B000CEE2C6 /* BlackTortoiseController.swift in Sources */,
+				E198042E271592DB00CEE2C6 /* MainViewController.swift in Sources */,
+				E19804372716826700CEE2C6 /* WhiteTigerController.swift in Sources */,
+				E19804342715986300CEE2C6 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,8 +492,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7SXJSP9WY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Awesome/Info.plist;
+				INFOPLIST_FILE = Awesome/Entrance/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要使用你的位置信息来提供地图服务";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -406,8 +523,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7SXJSP9WY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Awesome/Info.plist;
+				INFOPLIST_FILE = Awesome/Entrance/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App需要使用你的位置信息来提供地图服务";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
